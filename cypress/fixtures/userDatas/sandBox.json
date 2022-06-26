@@ -1,0 +1,61 @@
+{
+  "userList": {
+    "testUser1": {
+      "email": "strt.wa+test@gmail.com",
+      "password": "Test!234"
+    }
+  },
+
+  "pickupUserList": {
+    "testUser1": {
+      "email": "strt.wa+test1@gmail.com",
+      "newAddress": "13 Rue de Grenelle, 75007 Paris, France"
+    }
+  },
+
+  "dropOffUserList": {
+    "testUser1": {
+      "email": "strt.wa+test1@gmail.com",
+      "orderID": "Stuart!234"
+    }
+  },
+
+  "testScenarioList": [
+    "Happy Path",
+    "Package cancelled by Stuart",
+    "Expired package",
+    "Driver reassignment",
+    "Driver waiting status",
+    "Return delivery"
+  ],
+
+  "addressList": [
+    "11 Rue Notre Dame de Lorette, 75009 Paris, France",
+    "25 Rte du Mesnil, 78990 Élancourt, France"
+  ],
+
+  "vehicleTypeList": [
+    "walk",
+    "bike",
+    "motorbike",
+    "car",
+    "cargobike",
+    "van",
+    "truck",
+    "trailerbike"
+  ],
+
+  "accountMenuList": [
+    "Settings",
+    "Credit",
+    "Log out"
+  ],
+
+  "settingsList": [
+    "Account details",
+    "Billing",
+    "Address book",
+    "Email notifications",
+    "API"
+  ]
+}

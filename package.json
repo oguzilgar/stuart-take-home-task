@@ -1,0 +1,24 @@
+{
+  "name": "stuart-take-home-task",
+  "version": "1.0.0",
+  "description": "stuart take home task",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.0.1",
+    "cypress-wait-until": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oguzilgar/stuart-take-home-task.git"
+  },
+  "author": "oguz ilgar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oguzilgar/stuart-take-home-task/issues"
+  },
+  "homepage": "https://github.com/oguzilgar/stuart-take-home-task#readme"
+}

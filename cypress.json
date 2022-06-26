@@ -1,0 +1,33 @@
+{
+    "env": {
+      "environment": "sandBox",
+      "auth_token_url":"https://api.sandbox.stuart.com/oauth/token",
+      "auth_token_client_id":"038c548cda1f22164c9e66c8753dbfcd5b1e0a25057973426e",
+      "auth_token_client_secret":"a99ad5aeaf97f31c4297f49fb7481bdfa3b4d60451641e6876",
+      "auth_token_scope":"api",
+      "auth_token_grant_type":"client_credentials",
+      "apiUrl":"https://api.sandbox.stuart.com/v2/jobs/",
+
+      "sandBox": {
+        "baseUrl": "https://dashboard.sandbox.stuart.com/log-in"
+      },
+      "prod": {
+        "baseUrl": "https://stuart.com/"
+      }
+    },
+    "retries": {
+      "runMode": 1,
+      "openMode": 0
+    },
+    "integrationFolder": "cypress/",
+    "projectId": "5bee4f",
+    "requestTimeout": 10000,
+    "defaultTimeout": 10000,
+    "pageLoadTimeout": 40000,
+    "testFiles": "**/*.spec.js",
+    "video": true,
+    "videoCompression": 32,
+    "viewportWidth": 1280,
+    "viewportHeight": 800,
+    "includeShadowDom": true
+  }
